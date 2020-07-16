@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 350px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    box-shadow: 2px 4px 10px rgb(200, 199, 199);
+    
+}
+
+.ulki{
+    text-align: left;
+    
+}
+
+li{
+    background-color:rgb(241, 238, 238);
+    border: lightslategray solid 1px;
+    border-radius: 4px;
+    padding: 2px 20px 2px 0;
+    margin: 4px auto;
+    list-style-type: none;
+}
+
+img{
+    width: 16px;
+    padding: 0;
+    position: relative;
+    left: 330px;
+}
