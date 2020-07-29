@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #605175;
+}
+
+.container{
+    width: 1200px;
+    background-color: #B07CF7;
+    margin: 0 auto;
+    color: cornsilk;
+}
+
+header{
+    height: 330px;
+    text-align: center;
+}
+
+h1{
+    font-size: 64px;
+    padding-top: 100px;
+}
+
+header > p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 25px;
+}
+
+/* footer{
+    margin: 0 auto;
+} */
+button[type="Submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    font-size: 16px;
+    /* padding: 20px auto; */
+    height: 56px;
+    width: 200px;
+}
+.main-content{
+    width: 1200px;
+    /* margin: 0 auto; */
+}
+
+.images{
+    margin: auto;
+    text-align: center;
+}
+
+.blog1, .blog2, .blog3{
+    position: relative;
+    display: inline-block;
+    height: 328px;
+    width: 388px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.blog1{
+    background-image: url(images/blog1/back.png);
+} 
+
+.blog2{
+    background-image: url(images/blog2/img2.png);
+    
+} 
+.blog3{
+    background-image: url(images/blog3/img.png);
+}
+
+.shadow{
+    position: absolute;
+    width: 370px;
+    height: 0px;
+    left: 9px;
+    top: 166px;
+    /* background-image: url(images/gradient.png); */
+    display: none;
+    transition: height 1.3s ease-out;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+.blog1:hover .shadow,.blog2:hover .shadow ,.blog3:hover .shadow{
+    display: inline-block;
+    z-index: 1;
+    height: 151px;
+}
+
+.date{
+    position: absolute;
+    background-image: url(images/bg.png);
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 28px;
+    top: 30px;
+    left: 30px;
+}
+
+.text{
+    width: 335px;
+    height: 75px;
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.other{
+    font-weight: 300;
+    font-size: 16px;
+}

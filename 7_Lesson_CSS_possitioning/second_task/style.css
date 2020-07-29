@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header{
+    margin: 100px 25% 60px 25%;
+}
+
+p{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+header h1{
+    padding-bottom: 55px;
+}
+
+
+
+
+
+
+
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.one-block{
+    width: 269px;
+    text-align: left;
+    position: relative;
+}
+
+.one-block h2, .one-block p{
+    padding-left: 1px;
+}
+
+img:not(.blue-back){
+    position: relative;
+}
+
+.blue-back{
+    position: absolute;
+    left: 0px;
+    display: inline-block;
+    z-index: -1;
+}
+
+.one-block:hover .blue-back{
+    z-index: 1;
+}
+
+.social-media{
+    width: 134px;
+    height: 42px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: -10;
+    top: 113px;
+    margin-left: 25%;
+}
+
+.blue-icon{
+    width: 42px;
+    height: 42px;
+    background-image: url(images/background-for-icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.twitter{
+    width: 21px;
+    height: 19px;
+    background-image: url(images/Twitter.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.facebook{
+    width: 11px;
+    height: 23px;
+    background-image: url(images/FB.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.google{
+    width: 23px;
+    height: 23px;
+    background-image: url(images/G+.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+/* .main-photo{
+    visibility: hidden;
+} */
+.one-block:hover .social-media{
+    z-index: 2;
+}
