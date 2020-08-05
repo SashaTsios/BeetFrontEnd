@@ -2,19 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html{
-    
-}
-/* body{
-    
-    height: 100%;
-} */
-h1, h3{
+    transition: all .1s ease-in;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h3{
     color: white;
     padding: 15px 0 15px 15%;
 }
+
 main{
     color: white;
     border: 24px solid #2b81ac;
@@ -22,6 +18,7 @@ main{
     width: 100%;
     height: 100vh;
 }
+
 .main-content{
     width: 70%;
     min-width: 450px;
@@ -50,20 +47,14 @@ li{
 
 .block-1x{
     width: 25%;
-    background-color: tomato;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .block-2x{
     width: 50%;
-    background-color: turquoise;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .block-4x{
     width: 100%;
-    background-color: yellowgreen;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .bg-1{
@@ -106,5 +97,5 @@ span, li .wi{
 }
 
 ul:hover > .block:not(:hover){
-    opacity: 0.7;
+    opacity: 0.65;
 }

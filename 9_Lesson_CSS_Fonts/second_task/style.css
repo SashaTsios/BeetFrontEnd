@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #464f54;
+}
+
+.main-content{
+    position: relative;
+    /* margin: 0 auto; */
+}
+
+.black-block{
+    width: 876px;
+    height: 187px;
+    background-color: #181818;
+    position: absolute;
+    right: 0px;
+}
+
+.orange-block{
+    width: 812px;
+    height: 76px;
+    background-color: #f8be2c;
+    position: absolute;
+    right: 0px;
+}
+
+.white-block{
+    
+    width: 1060px;
+    height: 751px;
+    background-color: #fff;
+    position: absolute;
+    top: 149px;
+    left: 70px
+    /* padding-top: 149px; */
+    /* margin-top: 149px; */
+}
