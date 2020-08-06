@@ -1,0 +1,95 @@
+@font-face{
+    font-family: miso;
+    src: url(font/miso.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  background-color: #fdde7e;
+}
+
+.container{
+    height: 100vh;
+    background-color: #fdde7e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: miso;
+}
+
+.coffee-box{
+    height: 440px;
+    width: 360px;
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.coffee-price{
+    color: #02995b;
+    font-size: 70px;
+    letter-spacing: 0.025em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-bottom: 70px;
+}
+
+.coffee-title{
+    font-size: 40px;
+    letter-spacing: 0.025em;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.coffee-text{
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 25px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.coffee-cup{
+    width: 135px;
+    height: 77px;
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+.coffee-cup img:first-child{
+    position: absolute;
+}
+
+.coffee-cup img:nth-child(2){
+    position: absolute;
+    top: -70%;
+    left: 37%;
+}
+
+.coffee-cup img:last-child{
+    position: absolute;
+    top: 20%;
+    left: 37%;
+}
+
+.coffee-box:hover{
+    height: 500px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: rgb(235, 233, 233);
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 3px 3px 3px 3px silver;
+    transition: height 1.5s;
+}
