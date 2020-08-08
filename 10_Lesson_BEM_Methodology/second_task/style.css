@@ -1,0 +1,153 @@
+@font-face{
+    font-family: MuseoSansRounded;
+    src: url(font/MuseoSansRounded.woff);
+}
+
+.page{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c0c0c0;
+}
+
+
+.main{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(images/Group\ 3\ copy.png), url(images/Layer\ 5.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: calc((600px - 391px)/2);
+}
+
+.container{
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(17, 26, 40);
+    width: 686px;
+    height: 391px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.container__image-part{
+    width: 400px;
+    height: 100%;
+}
+
+.image-part__logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.image-part__image{
+    position: absolute;
+    top: 120px;
+    left: 35px;
+    /* height: 12px; */
+}
+
+.image-part__dots{
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    bottom: 20px;
+    margin-left: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dots_dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.dots_dot-black{
+    background-color: #1f273f;
+}
+
+.dots_dot-white{
+    background-color: #ffffff;
+}
+
+.dots_dot-red{
+    background-color: #ed3333;
+}
+
+.dots_dot-blue{
+    background-color: #29e3ea;
+}
+
+.dots_dot-hover:hover{
+    width: 12px;
+    height: 12px;
+    border: 2px solid grey;
+}
+
+.container__info-part{
+    height: 100%;
+    width: 286px;
+    font-family: MuseoSansRounded;
+    padding-right: 55px;
+    box-sizing: border-box;
+}
+
+.info-part__title{
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.020em;
+    color: #e1e1e1;
+    margin-top: 75px;
+}
+
+.info-part__desc{
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.020em;
+    color: rgba(225, 225, 225, 0.541);
+    margin-top: 10px;
+}
+
+.info-part__review{
+    padding: 20px 0;
+}
+
+.review__star_hover:hover{
+    background-image: url(images/white\ Vector\ Smart\ Object.png);
+}
+
+.info-part__selection{
+    width: 140px;
+    height: 32px;
+    background-color: #fff;
+}
+
+.selection__size{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(17, 26, 40);
+}
+
+.selection__form{
+    width: 69px;
+    height: 32px;
+    border-radius: 0;
+    background-color: #202835;
+    color: rgba(225, 225, 225, 0.541);
+    padding-left: 10px;
+}
+
+.button_button{
+    width: 184px;
+    height: 40px;
+    color: rgba(225, 225, 225, 0.541);
+    background-color: #202835;
+    border: 1px solid #4f5560;
+    margin-top: 29px;
+}

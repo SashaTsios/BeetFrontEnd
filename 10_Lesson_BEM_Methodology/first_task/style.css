@@ -1,0 +1,137 @@
+.page{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: #f9f8fb;
+}
+
+.header{
+    width: 1500px;
+    height: 1000px;
+    margin: 0 auto;
+    background-image: url(header/img.png);
+    background-repeat: no-repeat;
+    font-family: Raleway;
+}
+
+.upper-header{
+    height: 147px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.upper-header__logo{
+    width: 127px;
+    height: 52px;
+    z-index: 2;
+}
+
+.upper-header__image{
+    width: 127px;
+    height: 52px;
+}
+
+.upper-header__nav{
+    width: 570px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link{
+    color: black;
+    text-decoration: none;
+}
+
+.nav__link_hover:hover{
+    border-top: 3px solid #ff6033;
+    /* text-decoration: overline #ff6033 solid; */
+}
+
+.under-header{
+    height: 853px;
+}
+
+.under-header__main-info{
+    margin-left: 165px;
+    width: 370px;
+    height: 185px;
+    padding-top: 210px;
+}
+
+.main-info__title{
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+.main-info__titled-text{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.button__button{
+    width: 200px;
+    height: 55px;
+    background-color: #ff6033;
+    color: white;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 2px 2px 2px silver;
+    margin-left: 165px;
+    margin-top: 20px;
+}
+
+.scroll__img{
+    margin-left: calc(50% - 12px);
+    position: relative;
+    top: 270px;
+}
+
+.main{
+    width: 1500px;
+    height: 700px;
+    background-image: url(main/image.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-color: #00b1b1;
+    font-family: Raleway;
+}
+
+.main__text-block{
+    margin-left: 835px;
+    margin-top: 175px;
+    width: 500px;
+    height: 300px;
+}
+
+.main__title{
+    margin: 0;
+    font-size: 90px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+
+.main__text{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    color: white;
+    padding-top: 10px;
+}
