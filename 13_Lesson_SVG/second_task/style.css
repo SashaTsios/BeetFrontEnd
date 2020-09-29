@@ -1,0 +1,224 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body{
+    width: 1920px;
+}
+header{
+    background-image: url(images/png/hero-bg.jpg.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+    text-align: center;
+}
+
+.header-logo__image{
+    padding-top: 280px;
+}
+
+.header__title{
+    font-family: 'Lato', sans-serif;
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.16em;
+    padding-top: 80px;
+    width: 579px;
+    margin: 0 auto;
+}
+
+.header__text{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 29px;
+    text-align: center;
+    width: 579px;
+    height: 70px;
+    z-index: 46;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+  
+.header-scroll__image{
+    padding-top: 240px;
+    padding-bottom: 100px;
+}
+
+.about, .services, .we-do, .projects, .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    height: 630px;
+}
+
+.services{
+    height: 488px;
+    background: url(images/png/services.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border-container{
+    border-left: 2px solid rgb(60, 60, 60);
+    border-right: 2px solid rgb(60, 60, 60);
+    border-bottom: 2px solid rgb(60, 60, 60);
+    position: relative;
+    width: 900px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.border-container::before, .border-container::after{
+    width: 30%;
+    border-top: 2px solid rgb(60, 60, 60);
+    position: absolute;
+    top: 0;
+    content: "";
+}
+
+.border-container::before{
+    left: 0;
+}
+
+.border-container::after{
+    right: 0;
+}
+
+.main__title{
+    font-size: 34px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.16em;
+    position: relative;
+    top: -17px;
+}
+
+.main__text{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #3c3c3c;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    white-space: pre;
+    padding-bottom: 10px;
+    padding: 0;
+}
+
+.main__title_white, .main__text_white{
+    color: white;
+}
+
+.border-container_white, .border-container_white::before, .border-container_white::after{
+    border-color: white;
+}
+
+.we-do{
+    height: 1415px;
+}
+
+.we-do-element__title{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.16em;  
+}
+
+.we-do-element__text{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #3c3c3c;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+    white-space: pre;
+    padding-bottom: 20px;
+}
+
+.we-do-element__logo{
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects__project{
+    position: relative;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.projects-project__title{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.projects-project__image{
+    padding: 0;margin: 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+.contact{
+    margin-top: 50px;
+    height: 380px;
+}
+
+.contact__btn{
+    width: 395px;
+    height: 58px;
+    background-color: #3c3c3c;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.contact-btn__text{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.footer__text{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(60, 60, 60);
+    line-height: 1.2;
+    margin-left: 35px;
+}

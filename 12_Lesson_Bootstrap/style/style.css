@@ -1,0 +1,465 @@
+.page{
+    /* background-color: #bfbfbf; */
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+    /* overflow: hidden; */
+}
+
+.header{
+    /* background-color: cyan; */
+    font-family: 'Montserrat', sans-serif;
+    line-height: 48px;
+    text-align: center;
+    color: #60606e;
+    background-image: url(../image/header.png);
+    border-image-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.header-upper{
+    padding-top: 37px;
+}
+
+.header-upper__logo{
+    font-size: 18px;
+    font-weight: bold;
+    
+    /* color: #60606e; */
+}
+
+.header-upper__link{
+    color: #60606e;
+    text-decoration: none;
+}
+
+.header-upper__link_hover:hover{
+    color: #60606e;
+    text-decoration: none;
+}
+
+/* .menu__img{
+    background-image: url(../image/menu.png);
+    width: 31px;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+} */
+
+.header-other{
+    padding-top: 175px;
+}
+
+.header-other__title{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header-other__subtitle{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.about-text{
+    background-color: white;
+    color: #60606e;
+    padding-top: 150px;
+}
+
+.about-text__title, .general__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 48px;
+    text-transform: uppercase;
+    background-image: url(../image/title-bcg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.about-text__subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.about-text__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+
+
+.benefits{
+    background-color: white;
+    padding-top: 150px;
+    color: #60606e;
+    padding-bottom: 140px;
+}
+
+
+.general__title_center{
+    text-align: center;
+    background-position: bottom center;
+    background-position-x: calc(50% - 100px);
+}
+
+.benefits-upper__text, .team-upper__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 20px 27.5% 60px 27.5%;
+    text-align: center;
+}
+
+
+ion-icon{
+    position: absolute;
+    padding: 0;
+    top: 50px;
+    left: 19px;
+    color: white;
+}
+
+.benefits-under__title{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #60606e;
+    text-transform: uppercase;
+    padding-left: 12px;
+    padding-top: 40px;
+}
+
+.benefits-under__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.team{
+    background-color: white;
+}
+
+.team__title{
+    background-position-x: calc(50% - 110px);
+}
+
+.team-middle{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-middle__item{
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+.team-under{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efeff0;
+    margin-top: 10px;
+}
+
+
+.team-under__text{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    font-style: italic;
+    color: #60606e;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.team-under__btn{
+    display: inline-block;
+}
+
+.team-under__button{
+    width: 165px;
+    height: 50px;
+    background-color: #7beec7;
+    border: none;
+}
+
+.team-under__button-title{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.feedbacks{
+    background-color: white;
+    padding-top: 150px;
+}
+
+.feedbacks__feedback{
+    text-align: center;
+}
+
+.feedback_avatar{
+ padding-bottom:20px;
+}
+
+
+.feedback_text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #60606e;
+    /* padding-bottom: 10px; */
+}
+
+.feedback_button{
+    width: 100px;
+    height: 30px;
+    background-color: #7beec7;
+    border: none;
+}
+
+.feedback__button-title{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+
+.feedbacks__companies{
+    text-align: center;
+}
+.feedback__company-img{
+    padding-bottom: 30px;
+}
+
+.feedback__feedback-dashes{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.feedback-dashes__dashes{
+    height: 5px;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.feedback-dashes__dashes-green{
+    background-color: #7beec7;
+    width: 31px;
+}
+
+.feedback-dashes__dashes-grey{
+    background-color: #60606e;
+    width: 16px;
+}
+
+
+.newsletter{
+    background-color: #7beec7;
+}
+
+.newsletter__get-in-touch{
+    padding-right: 10px;
+    color: white;
+    margin-top: 50px;
+}
+
+.get-in-touch__button{
+    width: 165px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+.get-in-touch__button-title{
+    text-transform: uppercase;
+    color: #7beec7;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 48px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.newsletter__user-subscribe{
+    background-color: white;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+
+.newsletter__title{
+    background-image: none;
+}
+
+.get-in-touch__title{
+    margin-top: -10px;
+    
+}
+
+.user-subscribe{
+    text-transform: uppercase;
+    color: #60606e;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-subscribe__title{
+    color: #60606e;
+}
+
+.user-subscribe__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #60606e;
+}
+
+.user-subscribe__email-box{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.user-subscribe__form{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.user-subscribe__email-enter{
+    width: 315px;
+    height: 50px;
+    border: 1px solid silver;
+    border-right: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#but{
+    margin: 0;
+    padding: 0;
+}
+
+.user-subscribe__email-enter::placeholder{
+    color: #cdcdcd;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 48px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.user-subscribe__button{
+    width: 135px;
+    height: 50px;
+    /* border: 1px solid white; */
+    border: none;
+    background-color: #7beec7;
+    display: inline-block;
+    margin-left: -5px;
+    margin-top: -1px;
+}
+
+.user-subscribe__button-title{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* line-height: 48px;
+    font-size: 14px; */
+    font-weight: bold;
+}
+
+
+.footer{
+    background-color: white;
+    margin-top: 45px;
+}
+
+
+.footer__rights{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #60606e;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0;
+}
+.nav{
+    justify-content: space-between;
+}
+
+
+.nav__link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #60606e;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.nav__link_hover:hover{
+    text-decoration: none;
+    color: #60606e;
+}
+
+.grey-icon{
+    color: grey;
+}
+
+
+.footer__social-icon-list{
+    display: flex;
+    justify-content: space-between;
+    background-image: lawngreen;
+}
+
+.footer__social-icon{
+    position: relative;
+    color: silver;
+    font-size: 32px;
+    display: block;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,75 @@
+*{margin: 0;}
+
+.services{
+    background-color: #70bfff;
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__buttons{
+    width: 400px;
+    height: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: flex-end; */
+    
+}
+
+.services__button{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: none;
+    box-shadow: 2px 2px 10px black;
+}
+
+.button__text {
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: bold;
+    font-family: Raleway;
+    /* border: 1px solid lime; */
+}
+
+.button__divider{
+    position: absolute;
+    left: 70%;
+    width: 1px;
+    height: 100%;
+    background-color: #9d9d9d;
+}
+
+.button__icon{
+    width: 30%;
+    text-align: center;
+}
+
+.shopping, .quality, .delivery, .organization{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+}
+
+.services__title{
+    background-image: url(images/services__main-image.png);
+    background-repeat: no-repeat;
+    /* background-position-x: 10px; */
+    width: 462px;
+    height: 527px;
+    margin-left: 200px;
+    font-size: 75px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-family: Raleway;
+}
