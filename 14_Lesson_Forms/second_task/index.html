@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lesson 14 - Forms - 2 </title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__form">
+            <img class="form_bg" src="images/bg-modal.jpg" alt="">
+            <input checked class="form__input-radio" type="radio" name="sign-join" id="sign-page" value="Sign">
+            <label class="form__label form__label--radio" for="sign-page">Sign in</label>
+            <input class="form__input-radio" type="radio" name="sign-join" id="join-page" value="Join">
+            <label class="form__label form__label--radio" for="join-page">Join us</label>
+            <div class="form" id="sign__form">
+                <form action="#" method="get">
+                    <div class="form__field">
+                        <label class="form__label" for="sign-name">Username</label><br>
+                        <input class="form__input" type="text" name="get-sign-name" id="sign-name" minlength="3">
+                        <div class="form__error">minlength="3" ↑</div>
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label" for="sign-pass">Password</label><br>
+                        <input class="form__input" type="password" name="get-sign-pass" id="sign-pass" required>
+                        <div class="form__error">error ↑</div>
+                    </div>
+                    <div class="form__field">
+                        
+                        <input checked class="form__input-checkbox" type="checkbox" name="get-keep-signed" id="keep-signed">
+                        <label class="form__label form__label--13" for="keep-signed">Keep me signed in</label>
+                    </div>
+                    <button class="form__button">Sign in</button>
+                    <div class="form__links">
+                        <a class="form__link" href="#">Forgot password</a>
+                        <a class="form__link" href="#">Create an account</a>
+                    </div>
+                </form>
+            </div>
+            <div class="form" id="join__form">
+                <form action="#" method="get">
+                    <div class="form__field">
+                        <label class="form__label" for="join-name">Username</label><br>
+                        <input class="form__input" type="text" name="get-join-name" id="join-name" minlength="3">
+                        <div class="form__error">minlength="3" ↑</div>
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label" for="join-pass">Password</label><br>
+                        <input class="form__input" type="password" name="get-join-pass1" id="join-pass1" required>
+                        <div class="form__error">error ↑</div>
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label" for="join-pass">Confirm Password</label><br>
+                        <input class="form__input" type="password" name="get-join-pass2" id="join-pass2" required>
+                        <div class="form__error">error ↑</div>
+                    </div>
+                    <button class="form__button">Join in</button>
+                    <div class="form__links">
+                        <a class="form__link" href="#">Forgot password</a>
+                        <a class="form__link" href="#">Create an account</a>
+                    </div>
+                </form>
+            </div>
+            <img class="form_shape" src="images/Shape 1.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
