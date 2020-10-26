@@ -90,6 +90,7 @@ pencil.status;
 pencil.amount = 1;
 pencil.type('London is the capital!');
 
+
 class MarkerWCharger extends Marker{
     constructor(_color, _amount){
         super();
@@ -154,7 +155,7 @@ class EmpTable{
         let final_list = []
 
         var table1 = document.getElementById("table1");
-        var newRow = table1.insertRow(table1.length - 1);
+        var newRow = table1.insertRow(table1.rows.length);
         for (let i = 0; i < this.list.length; i++){
             let element = `${this.list[i]['name']} is ${this.list[i]['sex']} and has ${this.list[i]['age']} years old `;
             // final_list.push(element)
@@ -163,15 +164,6 @@ class EmpTable{
             var newCell = newRow.insertCell(i);
             newCell.innerHTML = element;
         }
-        // var table1 = document.getElementById("table1");
-        // var newRow = table1.insertRow(1);
-        // var newCell = newRow.insertCell(0);
-        // newCell.innerHTML = "Fe";
-        // newCell = newRow.insertCell(1);
-        // newCell.innerHTML = "Fi";
-        // newCell = newRow.insertCell(2);
-        // newCell.innerHTML = "Fo";
-        // document.getElementById('table1').appendChild(newRow);
     }
 }
 
